@@ -1,0 +1,55 @@
+<head>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+		
+	<script type="text/javascript">
+
+	window.onload = function()
+	{
+			var body = document.getElementById("body");
+				
+			var h1 = document.createElement("h1");
+			var h1text = document.createTextNode("Login");
+			h1.appendChild(h1text);
+
+			body.appendChild(h1);
+			
+			
+			var form = document.createElement("form");
+			body.appendChild(form);
+			
+			var name = document.createElement("input");
+			name.setAttribute("type", "text");
+			form.appendChild(name);
+			
+			var password = document.createElement("input");
+			password.setAttribute("type", "text");
+			form.appendChild(password);
+			
+			var submit = document.createElement("button");
+			var submittext = document.createTextNode("Login");
+			submit.appendChild(submittext);
+			submit.setAttribute("onclick", "submit()");
+			form.appendChild(submit);
+	}
+	
+	submit = function(event)
+	{
+		$.ajax({
+			type: 'POST',
+			url: 'https://url.com',
+			crossDomain: true,
+			data: '{"some":"json"}',
+			dataType: 'json',
+			success: function(responseData, textStatus, jqXHR) {
+				var value = responseData.someKey;
+			},
+			error: function (responseData, textStatus, errorThrown) {
+				alert('POST failed.');
+			}
+		});
+	};
+	</script>
+</head>
+<body id="body">
+
+</body>

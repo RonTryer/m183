@@ -1,0 +1,30 @@
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.csprojResolveAssemblyReference.cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\MainWindow.g.cs
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\App.g.cs
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor_MarkupCompile.cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor_MarkupCompile.lref
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\bin\Debug\TwoFactor.exe.config
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\bin\Debug\TwoFactor.exe
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\bin\Debug\TwoFactor.pdb
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\MainWindow.baml
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.g.resources
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.Properties.Resources.resources
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.csproj.GenerateResource.Cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.csproj.CoreCompileInputs.cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.exe
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\TwoFactor\TwoFactor\obj\Debug\TwoFactor.pdb
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\bin\Debug\TwoFactor.exe.config
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\bin\Debug\TwoFactor.exe
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\bin\Debug\TwoFactor.pdb
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\bin\Debug\Google.Authenticator.dll
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\MainWindow.g.cs
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\App.g.cs
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor_MarkupCompile.cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor_MarkupCompile.lref
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\MainWindow.baml
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.g.resources
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.Properties.Resources.resources
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.csproj.GenerateResource.Cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.csproj.CoreCompileInputs.cache
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.exe
+C:\Users\Gamer-Beast\Documents\git\M183-Projects\Project 5 TOTP\TwoFactor\obj\Debug\TwoFactor.pdb

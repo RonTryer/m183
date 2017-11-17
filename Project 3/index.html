@@ -1,0 +1,64 @@
+<head>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+		
+	<script type="text/javascript">
+
+	window.onload = function()
+	{
+		var body = document.getElementById("body");
+			
+		var iframe = document.getElementById('iframe');
+		var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+	}
+	
+	submit = function(event)
+	{
+		$.ajax({
+			type: 'POST',
+			url: 'https://url.com',
+			crossDomain: true,
+			data: '{"some":"json"}',
+			dataType: 'json',
+			success: function(responseData, textStatus, jqXHR) {
+				var value = responseData.someKey;
+			},
+			error: function (responseData, textStatus, errorThrown) {
+				alert('POST failed.');
+			}
+		});
+	};
+	</script>
+</head>
+<body id="body">
+	<form action="/de/CustomerAccount/Login" method="post"><div class="form-group">
+	<label class="no-wrap" for="username">Benutzername</label>
+	<input autocapitalize="off" autocorrect="off" id="username" name="username" value="" type="text"></div>
+	<div class="form-group  ">
+	<label class="no-wrap" for="password">Passwort</label>
+	<div class="input-group input-group--password initialized"><input data-validation="length" data-validation-has-keyup-event="True" data-validation-length="min6" id="password" name="password" value="" type="password"><div class="input-group__addon"><button type="button"><svg aria-hidden="true" class="digicon digicon--eye " height="16" role="img" width="16"><defs></defs><symbol id="digicon--eye" viewBox="0 0 16 16">
+		<!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+		<title>Auge-16 Flat Gal</title>
+		<desc>Created with Sketch.</desc>
+		
+		<g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+			<g id="Auge-16-Flat-Gal">
+				<g id="eye" transform="translate(0.000000, 3.000000)">
+					<path d="M14.6144913,4.87236292 C14.1385784,4.32129563 13.5971396,3.76961831 13.0033241,3.25690047 C11.3583192,1.83655482 9.65021835,1 8,1 C6.34978165,1 4.64168077,1.83655482 2.99667592,3.25690047 C2.40286037,3.76961831 1.86142159,4.32129563 1.38550867,4.87236292 C1.34753006,4.91633897 1.31113867,4.95891664 1.2763628,5 C1.31113867,5.04108336 1.34753006,5.08366103 1.38550867,5.12763708 C1.86142159,5.67870437 2.40286037,6.23038169 2.99667592,6.74309953 C4.64168077,8.16344518 6.34978165,9 8,9 C9.65021835,9 11.3583192,8.16344518 13.0033241,6.74309953 C13.5971396,6.23038169 14.1385784,5.67870437 14.6144913,5.12763708 C14.6524699,5.08366103 14.6888613,5.04108336 14.7236372,5 C14.6888613,4.95891664 14.6524699,4.91633897 14.6144913,4.87236292 Z M8,10 C3.581722,10 0,5 0,5 C0,5 3.581722,0 8,0 C12.418278,0 16,5 16,5 C16,5 12.418278,10 8,10 Z" id="Oval"></path>
+					<ellipse id="Oval-2" cx="7.92" cy="5" rx="1.92" ry="2"></ellipse>
+				</g>
+			</g>
+		</g>
+	</symbol><use xlink:href="#digicon--eye"></use></svg><svg aria-hidden="true" class="digicon digicon--eye-closed " height="16" role="img" width="16"><symbol id="digicon--eye-closed" viewBox="0 0 16 16"><title>eye-closed</title><path d="M16,8l-0.48236-.88232c-0.03479.04108-.86517,0.966-0.90314,1.00995A15.70444,15.70444,0,0,1,13.0033,9.7431,7.941,7.941,0,0,1,8,12,7.941,7.941,0,0,1,2.9967,9.7431,15.70444,15.70444,0,0,1,1.3855,8.12762C1.34753,8.08368.54065,7.14307,0.50586,7.102L0,8A15.87347,15.87347,0,0,0,1.70123,9.91058L0.35889,11.15723c0.15039,0.16211.41553,0.43457,0.77734,0.7627l1.25238-1.38263a13.27484,13.27484,0,0,0,1.50354,1.11444l-1.064,1.5885c0.29248,0.19629.60547,0.38672,0.93506,0.56641L4.68506,12.11a8.27339,8.27339,0,0,0,1.66559.66327l-0.545,1.88495a8.0803,8.0803,0,0,0,1.11572.23926l0.27441-1.9527a5.761,5.761,0,0,0,1.69171-.01483L9.22266,14.8623a8.52752,8.52752,0,0,0,1.09863-.26758L9.74152,12.74359a8.41436,8.41436,0,0,0,1.66644-.684l0.93384,1.64252c0.32617-.18457.63379-0.37988,0.91992-0.57715l-1.05438-1.537a13.50311,13.50311,0,0,0,1.49792-1.13171l1.23126,1.323a10.83323,10.83323,0,0,0,.78125-0.79492l-1.338-1.15332A15.85554,15.85554,0,0,0,16,8Z"></path></symbol><use xlink:href="#digicon--eye-closed"></use></svg></button></div><a class="forgot-password" href="/de/Register/RequestPassword" tabindex="-1">Hast du dein Passwort vergessen?</a></div></div>
+	<div class="form-group form-group--checkbox "><input id="stayloggedin" name="stayloggedin" value="true" type="checkbox"><input name="stayloggedin" value="false" type="hidden"><label for="stayloggedin"><svg aria-hidden="true" class="digicon digicon--checkbox " height="18" role="img" width="18"><symbol id="digicon--checkbox" viewBox="0 0 18 18"></symbol><use xlink:href="#digicon--checkbox"></use></svg><svg aria-hidden="true" class="digicon digicon--checkbox-active " height="18" role="img" width="18"><symbol id="digicon--checkbox-active" viewBox="0 0 18 18">
+		<polygon points="7.33333333 14 4 9.83333333 5.33333333 8.16666667 7.33333333 10.6666667 12.6666667 4 14 5.66666667"></polygon>
+	</symbol><use xlink:href="#digicon--checkbox-active"></use></svg><span>Eingeloggt bleiben</span></label></div>
+	<div>
+	<div style="width: 302px; height: 422px; position: relative;">
+	<div style="width: 302px; height: 422px; position: absolute;">
+	</div>
+	</div>
+	<button class="button big" id="login" name="login" type="submit">Login</button></form>
+
+	<iframe id="iframe" height="100%" width="100%" src="http://digitec.ch"></iframe>
+	<iframe id="iframe" height="100%" width="100%" src="http://arche-internetz.net/"></iframe>
+</body>
